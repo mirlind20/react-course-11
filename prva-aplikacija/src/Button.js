@@ -17,6 +17,27 @@ class Button extends React.Component {
     this.state = this.initialState
   }
 
+  // componentWillMount = () => {
+  //   // ne povikuva render metod
+  //   this.setState({})
+  // }
+
+  // componentDidMount = () => {
+  //   this.props
+  //   this.state
+  //   this.setState({})
+  // }
+
+  // componentDidUpdate = (prevProps, prevState) => {
+  //   prevState.name === this.state.name
+
+  //   this.setState({ alert: "" })
+  // }
+
+  // componentWillUnmount = () => {
+
+  // }
+
 
   alertMe = () => {
     alert(`${this.props.greeting} ${this.state.name}`)
