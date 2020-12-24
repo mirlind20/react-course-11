@@ -4,6 +4,7 @@ import './App.css'
 // import Calc from './Calc'
 // import Counter from './Counter'
 import Toolbar from './components/Toolbar.js'
+import Users from './components/Users.js'
 
 const items = [
   'Home',
@@ -22,6 +23,8 @@ class App extends React.Component {
         <Counter />
         <Calc /> */}
         <Toolbar menuItems={items} />
+        <br />
+        <Users />
       </div>
     )
   }
